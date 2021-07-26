@@ -190,7 +190,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Mozzarella, Tomato, pepperoni y JalapenoPepper.</rdfs:comment>
-        <rdfs:label xml:lang="es">Pizza Hot americana</rdfs:label>
+        <rdfs:label xml:lang="es">AmericanaHotPizza</rdfs:label>
     </owl:Class>
     
 
@@ -218,7 +218,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Mozzarella, Tomato y pepperoni.</rdfs:comment>
-        <rdfs:label xml:lang="es">Pizza Americana</rdfs:label>
+        <rdfs:label xml:lang="es">AmericanaPizza</rdfs:label>
     </owl:Class>
     
 
@@ -311,6 +311,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#SodaDrinks"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Coca-cola</rdfs:label>
     </owl:Class>
     
 
@@ -325,6 +326,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#NaturalDrinks"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">CoconutJuice</rdfs:label>
     </owl:Class>
     
 
@@ -363,7 +365,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#hasOrdered"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#Customer"/>
@@ -423,7 +425,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#hasOrdered"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
@@ -449,7 +451,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#hasOrdered"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#Customer"/>
@@ -472,9 +474,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza -->
+    <!-- http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza">
+    <owl:Class rdf:about="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#NamedPizza"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -500,7 +502,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#TajinTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="es">Pizza de Don Cangrejo</rdfs:label>
+        <rdfs:label xml:lang="es">DonCangrejoPizza</rdfs:label>
     </owl:Class>
     
 
@@ -545,6 +547,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#SodaDrinks"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Fanta</rdfs:label>
     </owl:Class>
     
 
@@ -715,7 +718,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>MozzarellaTopping y TomatoTopping</rdfs:comment>
-        <rdfs:label xml:lang="es">Margherita Pizza</rdfs:label>
+        <rdfs:label xml:lang="es">MargheritaPizza</rdfs:label>
     </owl:Class>
     
 
@@ -790,6 +793,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#NaturalDrinks"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Orange_juice</rdfs:label>
     </owl:Class>
     
 
@@ -969,7 +973,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>MozzarellaTopping y TomatoTopping</rdfs:comment>
-        <rdfs:label xml:lang="es">Pizza Soho</rdfs:label>
+        <rdfs:label xml:lang="es">SohoPizza</rdfs:label>
     </owl:Class>
     
 
@@ -1032,6 +1036,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#SodaDrinks"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Sprite</rdfs:label>
     </owl:Class>
     
 
@@ -1228,7 +1233,7 @@
     <!-- http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCagrejoPizza"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/msigf65thin/ontologies/2021/5/PizzaTutorial#DonCangrejoPizza"/>
         <untitled-ontology-3:hasCaloricContent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515</untitled-ontology-3:hasCaloricContent>
     </owl:NamedIndividual>
     
